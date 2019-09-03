@@ -28,7 +28,7 @@ public class SimpleCalculator {
         entry2 = inputDevice.nextDouble();
 
         total = entry1 + entry2;
-        System.out.println(  entry1 + " + " + entry2 + r" = " + total);
+        System.out.println(  entry1 + " + " + entry2 + " = " + total);
         total = entry1 * entry2;
         System.out.println( entry1 + " x " + entry2 + " = " + total );
         total = entry1 - entry2;
