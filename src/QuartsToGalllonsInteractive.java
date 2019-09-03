@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class QuartsToGallonsInteractive {
+public class QuartsToGallonsInteractive{
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class QuartsToGallonsInteractive {
 
         System.out.println( "The number of gallons is " + numGallons + " with " +
         quartsRemaining + " quarts remaining. ");
-        
+
 
     }
 }
