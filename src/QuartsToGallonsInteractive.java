@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class QuartsToGallonsInteractive{
+public class QuartsToGallonsInteractive {
 
     public static void main(String[] args) {
 
