@@ -7,9 +7,10 @@ public class Eggs {
         double singleEggs;
         double singleEggsPrice;
         double dozenEggsPrice;
-        double dozenEggs;
+        int dozenEggs;
         int userInput;
-        final double DOZEN_EGGS = 12;
+        double total;
+        final int DOZEN_EGGS = 12;
 
         Scanner input = new Scanner(System.in);
         System.out.println( " How many eggs do you want? >>>");
@@ -20,6 +21,10 @@ public class Eggs {
 
         dozenEggsPrice = dozenEggs * 3.25;
         singleEggsPrice = singleEggs * .45;
+        total = dozenEggsPrice + singleEggsPrice;
+
+        System.out.println(" You ordered " + userInput + " eggs. That's " + dozenEggs + " dozen eggs at $3.25 per dozen, \n" +
+                " and " + singleEggs + " loose eggs at $.45 each for a total of $" + total);
 
 
 
