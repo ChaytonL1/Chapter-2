@@ -5,6 +5,8 @@ public class RandomGuessMatch {
     public static double getRandomNumber() {
 
         double x = Math.random();
-        return x;
+        System.out.print(x);
+
+        return 1;
     }
 }

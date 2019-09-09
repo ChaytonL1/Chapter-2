@@ -5,6 +5,7 @@ public class Initials {
         char initialOne = 'C';
         char initialTwo = 'M';
         char initialThree = 'L';
+
     }
 
 }
