@@ -7,6 +7,6 @@ public class RandomGuessMatch {
         double x = Math.random();
         System.out.print(x);
 
-        return 1;
+        return 0;
     }
 }
